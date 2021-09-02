@@ -1,0 +1,17 @@
+Module Program
+    Sub Main(args As String())
+        '-------------------------------------------------------------Strings and its different ways of using it-----------------------------
+        Dim firstName As String = " Sidhaant "
+        Dim lastName As String = " Menon "
+        Dim intAge As Integer = 16
+        '----Example 1------
+        Console.WriteLine("Hello " & firstName & "Your LastName is: " & lastName & "Your age is: " & intAge)
+        Console.ReadLine()
+        '----Example 2------
+        Console.WriteLine($"First Name: {firstName} Last Name: {lastName} Your age: {intAge}")
+        Console.ReadLine()
+        '----Example 3------
+        Console.WriteLine(String.Format("First Name: {0} Last Name {1} Age: {2}", firstName, lastName, intAge))
+        Console.ReadLine()
+    End Sub
+End Module
