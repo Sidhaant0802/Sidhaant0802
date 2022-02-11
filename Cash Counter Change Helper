@@ -16,6 +16,6 @@ elif ans == 2:
     result_again_provided = int(input("Please enter the result just printed: "))
     print("New total will be: ", cash_amount + result_again_provided)
 else:
-    print("Please print a valid number! Rerun the program")
+    print("Please enter a valid number! Rerun the program")
 print("Thankyou for using this program!")
 print("See you next time!")
