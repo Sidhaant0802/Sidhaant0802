@@ -1,0 +1,21 @@
+#OpenSource Code, made by Sidhaant N Menon
+print("Sid's Cash Counter Change Helper")
+ans = int(input("For easy change helper press 1, for complex change helper press 2: "))
+if ans == 1:
+    a = int(input("Input total amount: "))
+    b = int(input("Input Customer given amount: "))
+    print("This is the change that has to be given: ", b - a)
+elif ans == 2:
+    #If you want just a normal calc choose this.... for complex calculator click this!
+    cash_amount = int(input("Input the final amount: "))
+    amount_customer_gave = int(input("Enter the amount the customer gave you: "))
+    print("Amount current change customer needs to given is ", amount_customer_gave - cash_amount)
+    result_just_provided = int(input("Please input the amount just printed: "))
+    closest_value = int(input("Please enter closest value to the number just printed: "))
+    print("Hence, now customer needs to pay this much more: ", closest_value - result_just_provided)
+    result_again_provided = int(input("Please enter the result just printed: "))
+    print("New total will be: ", cash_amount + result_again_provided)
+else:
+    print("Please print a valid number! Rerun the program")
+print("Thankyou for using this program!")
+print("See you next time!")
